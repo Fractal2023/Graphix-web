@@ -1,0 +1,17 @@
+@import "./base/reset";
+@import "./utilities/mixins";
+@import "./utilities/maps";
+
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/sobrenosotros";
+@import "./layout/proyectos";
+@import "./layout/galeria";
+@import "./layout/contacto";
+@import "./layout/footer";
+
+@import "./layout/media/responsiveprincipal";
+@import "./layout/media/responsivesobremi";
+@import "./layout/media/responsiveproyectos";
+@import "./layout/media/responsivegaleria";
+@import "./layout/media/responsivecontacto";

@@ -1,0 +1,85 @@
+ /*CONTACTO RESPONSIVE*/
+ @media (max-width: 1620px) {
+    .contactoFlex {
+      margin: 0 auto;
+      width: 45%;
+      right: 35rem;
+    }
+  }
+    @media (max-width: 1310px) {
+    .contactoFlex {
+      margin: 0 auto;
+      width: 50%;
+      right: 35rem;
+    }
+    .contactoImg {
+      opacity: 100%;
+      width: 100%;
+      top: 90rem;
+      right: 0rem;
+      position: absolute;
+      z-index: -2;
+    }
+    .contactoImg2 {
+      opacity: 50%;
+      width: 100%;
+      top: 60rem;
+      right: -38rem;
+      position: absolute;
+      z-index: -2;
+    }
+  }
+  @media (max-width: 1290px) {
+    .contactoFlex {
+      margin: 0 auto;
+      left: -7rem;
+    }
+  }
+  @media (max-width: 1130px) {
+    .contactoFlex {
+      align-items: center;
+    }
+  }
+  @media (max-width: 1070px) {
+    .contactoFlex {
+      text-align: center;
+      left: -12rem;
+    }
+  }
+   @media (max-width: 960px) {
+    .contactoFlex {
+      text-align: center;
+      left: -15rem;
+    }
+  }
+  @media (max-width: 800px) {
+    .contactoFlex {
+      text-align: center;
+      left: -19rem;
+    }
+    .contactoTitle {
+      font-size: 3rem;
+    }
+    .contactoImg {
+      top: 95rem;
+    }
+    .contactoImg2 {
+      top: 80rem;
+      right: -25rem;
+      position: absolute;
+      z-index: -2;
+    }
+  }
+  @media (max-width: 428px) {
+    .contactoFlex {
+      width: 100%;
+      text-align: center;
+      left: -29rem;
+    }
+  }
+  @media (max-width: 320px) {
+    .contactoTitle {
+      font-size: 2.8rem;
+    }
+  }
+    

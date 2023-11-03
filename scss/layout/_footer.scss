@@ -1,0 +1,33 @@
+/*FOOTER*/
+.footerTitle {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    color: black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: black;
+    padding: 1rem;
+  }
+  .footerBarra {
+    background-color: #4b89da;
+    width: 100%;
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    transition: all 300ms ease-in-out;
+  &:hover {
+      transform: scale(1.05);
+      background: -webkit-linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);
+      background: linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);
+    }
+  }
+  

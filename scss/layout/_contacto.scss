@@ -1,0 +1,97 @@
+ /*CONTACTO LAYOUT PRINCIPAL*/
+
+ .contactoFlex {
+    position: absolute;
+  }
+  .marginContacto {
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  
+  .contactoBg {
+    position: relative;
+    color: white;
+    top: 0rem;
+    right: -32rem;
+    margin-right: 10rem;
+    background-color: map-get($color , marron-contacto);
+    width: 76%;
+    height: 20%;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 5px -5px map-get($color, cappucino);
+    transition: all 300ms ease-in-out;
+    z-index: 2;
+    &:hover {
+      color: map-get($color , marron-contacto);
+      background-color: white;
+      box-shadow: 0px 10px 5px -5px map-get($color, marron-oscuro);
+      transform: scale(1.05);
+    }
+  }
+  .contactoTitle {
+    padding-top: 1.5rem;
+    font-size: 4rem;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+  }
+
+  .contactoDiv{
+    position: absolute;
+    max-width: 50%;
+    .contactoImg {
+      position: relative;
+      opacity: 90%;
+      width: 80rem;
+      top: -5rem;
+      right: 20rem;
+      z-index: -2;
+    }   .contactoImg2 {
+      opacity: 40%;
+      width: 80%;
+      top:-30rem;
+      right: -40rem;
+      position: relative;
+      z-index: -2;
+    }
+  
+  }
+  // .contactoImg {
+  //   position: relative;
+  //   opacity: 90%;
+  //   width: 80rem;
+  //   top: -5rem;
+  //   right: 22rem;
+  //   z-index: -2;
+  // }
+  //   .contactoImg2 {
+  //   opacity: 40%;
+  //   width: 0%;
+  //   top: 30rem;
+  //   left: 50rem;
+  //   position: relative;
+  //   z-index: -2;
+  // }
+
+  /*PÁGINA CONTACTO*/
+.marginContacto-page {
+    margin-top: -10rem;
+    margin-bottom: 5rem;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+   .contactoImg-page {
+    opacity: 100%;
+    width: 100%;
+    top: -30rem;
+    right: 0rem;
+    position: absolute;
+    z-index: -2;
+  }
+  .contactoImg3 {
+    opacity: 40%;
+    width: 100%;
+    top: 51rem;
+    right: -48rem;
+    position: absolute;
+    z-index: -2;
+  }

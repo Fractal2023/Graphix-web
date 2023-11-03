@@ -1,0 +1,87 @@
+/*PROYECTOS GRID*/
+@media (max-width: 1258px) {
+    .grid {
+      gap: 1rem;
+      margin-top: -6rem;
+      margin-left: -8rem;
+      padding: 10rem;
+    }
+  }
+   @media (max-width: 1122px) {
+    .grid {
+      gap: 1rem;
+      margin-top: -6rem;
+      margin-left: -8rem;
+      padding: 9rem;
+    }
+  }
+  @media (max-width: 1090px) {
+    .grid {
+      gap: .5rem;
+      margin-top: -6rem;
+      margin-left: -8.3rem;
+      padding: 9rem;
+    }
+  }
+   @media (max-width: 1065px) {
+    .grid {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 125%;
+      height: 20%;
+      gap: .5rem;
+      margin-top: -6rem;
+      margin-left: -8.3rem;
+      padding: 9rem;
+    }
+    .proyectosTitle {
+      padding: 1.5rem;
+      padding-top: .5rem;
+      font-size: 3.2rem;
+      font-family: 'Lexend Deca', sans-serif;
+      text-align: center;
+    }
+    .btnProyecto {
+      padding: .2rem 1rem;
+      border-radius: .5rem;
+    }
+  }
+   @media (max-width: 800px) {
+    .grid {
+      gap: .5rem;
+      margin-top: -6rem;
+      margin-left: -6.3rem;
+      padding: 8rem;
+    }
+  .btnProyecto {
+      font-size: .5rem;
+    }
+  .proyectosTitle {
+      font-size: 2.8rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .proyectosTitle {
+      font-size: 2.2rem;
+    }
+  .btnProyecto {
+      font-size: .4rem;
+    }
+  }
+  @media (max-width: 428px) {
+    .proyectosTitle {
+      font-size: 2rem;
+    }
+  .proyectosBg {
+      width: 50%;
+    }
+  }
+  @media (max-width: 320px) {
+    .proyectosTitle {
+      font-size: 1.8rem;
+    }
+  .proyectosBg {
+      width: 60%;
+    }
+  }

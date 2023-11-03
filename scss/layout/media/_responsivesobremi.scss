@@ -1,0 +1,62 @@
+ /*SOBRE MÍ RESPONSIVE*/
+ @media (max-width: 1140px) {
+    .titleText {
+      font-size: 3.1rem;
+    }
+  }
+   @media (max-width: 1010px) {
+    .titleText {
+      font-size: 3rem;
+    }
+    .imgGraphic {
+      top: -8rem;
+      right: -40rem;
+      width: 15rem;
+      z-index: 0;
+    }
+  }
+    @media (max-width: 800px) {
+    .titleText {
+      font-size: 2.5rem;
+    }
+    .subtitleText {
+      font-size: 1.7rem;
+    }
+    .imgGraphic {
+      top: -7rem;
+      right: -30rem;
+      width: 15rem;
+      z-index: 0;
+    }
+    .sobreBg {
+      height: 30%;
+    }
+  }
+    @media (max-width: 428px) {
+    .titleText {
+      font-size: 1.5rem;
+    }
+    .subtitleText {
+      font-size: 1.2rem;
+      text-align: center;
+      margin-top: 2rem;
+  
+      p {
+        margin-top: 3rem;
+      }
+    }
+    .sobreBg {
+      height: 30%;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .titleText {
+      font-size: 1.2rem;
+    }
+    .subtitleText p {
+      margin-top: 2.2rem;
+      line-height: 1.3;
+    }
+  }
+  

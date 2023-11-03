@@ -1,0 +1,122 @@
+/*-------RESPONSIVE PÁGINA PRINCIPAL--------*/
+@media (max-width: 1300px) {
+    h2.yFondo {
+      right: 30rem;
+    }
+  }
+  
+  @media (max-width: 1150px) {
+    h2.yFondo {
+      right: 25rem;
+    }
+  }
+  
+  @media (max-width: 1008px) {
+    h2.yFondo {
+      left: 20rem;
+      top: 13rem;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    a {
+      padding: .4rem;
+    }
+  .navFlex {
+      gap: 2rem;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: space-between;
+      width: 25%;
+    }
+  .title {
+      bottom: -7rem;
+      line-height: .2;
+    }
+  h2.yFondo {
+      right: 10rem;
+    }
+  .navItem {
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 0;
+    }
+  a.cajaLinks {
+      background-color: none;
+      display: block;
+      right: 3rem;
+      margin: .2rem 0;
+    }
+  .backLogo {
+      position: absolute;
+      width: 33%;
+    }
+  .backLogo-2 {
+      position: absolute;
+      width: 35%;
+    }
+  .logoPrincipal {
+      bottom: 2rem;
+      top: 0rem;
+      left: -1rem;
+      width: 15%;
+      font-size: 3.7rem;
+    }
+  }
+  
+  @media (max-width: 1120px) {
+    .navFlex {
+      gap: .1rem;
+    }
+  }
+  
+  @media (max-width: 1068px) {
+    .logoPrincipal {
+      top: 0rem;
+      left: 2rem;
+      width: 14.5%;
+      font-size: 2.7rem;
+    }
+  }
+  
+  @media (max-width: 962px) {
+    .navFlex {
+      gap: 0;
+    }
+  a.cajaLinks {
+      display: block;
+      right: 6rem;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .logoPrincipal {
+      top: .2rem;
+      width: 12%;
+    }
+  }
+  
+  @media (max-width: 428px) {
+    .logoPrincipal {
+      top: 0.05rem;
+      left: 12.5rem;
+      font-size: 3.5rem;
+      width: 16.5%;
+    }
+    h1.title, span.titleColor {
+      font-size: 2rem;
+    }
+    h2.yFondo {
+      font-size: 15rem;
+      left: 8rem;
+      top: 15.3rem;
+    }
+  }
+  @media (max-width: 320px) {
+    .logoPrincipal {
+      top: 0.05rem;
+      left: 10.5rem;
+      font-size: 3.5rem;
+      width: 16.5%;
+    }
+  }
