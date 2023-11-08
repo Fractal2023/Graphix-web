@@ -756,33 +756,56 @@ section.galeriaFlex {
   .titleText {
     font-size: 2.5rem; }
   .subtitleText {
-    font-size: 1.7rem; }
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-top: 3rem; }
   .imgGraphic {
     top: -7rem;
     right: -30rem;
     width: 15rem;
     z-index: 0; }
   .sobreBg {
-    height: 30%; } }
+    height: 30%; }
+  .subtitleText2 {
+    font-size: 1.5rem; }
+  .imgGraphic2 {
+    width: 22rem;
+    right: 1.5rem;
+    opacity: 70%;
+    z-index: -1; } }
 
 @media (max-width: 428px) {
   .titleText {
     font-size: 1.5rem; }
-  .subtitleText {
+  .subtitleText2 {
     font-size: 1.2rem;
     text-align: center;
-    margin-top: 2rem; }
-    .subtitleText p {
-      margin-top: 3rem; }
+    margin-top: 2rem;
+    line-height: 1; }
+    .subtitleText2 p {
+      margin-top: 1rem;
+      margin-left: -2rem; }
   .sobreBg {
-    height: 30%; } }
+    height: 30%; }
+  .imgGraphic2 {
+    width: 10rem;
+    top: 12rem;
+    right: 1.5rem;
+    opacity: 70%;
+    z-index: -1; } }
 
 @media (max-width: 320px) {
   .titleText {
     font-size: 1.2rem; }
   .subtitleText p {
     margin-top: 2.2rem;
-    line-height: 1.3; } }
+    line-height: 1.3; }
+  .imgGraphic2 {
+    width: 5rem;
+    top: 16rem;
+    right: 0rem;
+    opacity: 70%;
+    z-index: -1; } }
 
 /*PROYECTOS GRID*/
 @media (max-width: 1258px) {
@@ -895,13 +918,31 @@ section.galeriaFlex {
     width: 700px;
     height: 500px; } }
 
-@media (max-width: 428px) {
+@media (max-width: 429px) {
   .galleryBg {
+    top: 0rem;
     width: 70%;
-    height: 10%; }
+    height: 20%; }
   .galeriaFlex-inicio {
     width: 350px;
-    height: 200px; } }
+    height: 200px; }
+  .galeriaFlex {
+    position: flex;
+    margin: 0 auto;
+    margin-left: 2.5rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column; }
+    .galeriaFlex img {
+      width: 300px; }
+      .galeriaFlex img:hover {
+        cursor: crosshair;
+        width: 310px;
+        opacity: 1;
+        filter: contrast(100%); }
+  .footer {
+    position: relative;
+    bottom: -85rem; } }
 
 @media (max-width: 320px) {
   .galleryBg {
@@ -912,7 +953,24 @@ section.galeriaFlex {
     padding-bottom: 3rem; }
   .galeriaFlex-inicio {
     width: 250px;
-    height: 200px; } }
+    height: 200px; }
+  .galeriaFlex {
+    position: flex;
+    margin: 0 auto;
+    margin-left: 2rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column; }
+    .galeriaFlex img {
+      width: 220px; }
+      .galeriaFlex img:hover {
+        cursor: crosshair;
+        width: 250px;
+        opacity: 1;
+        filter: contrast(100%); }
+  .footer {
+    position: relative;
+    bottom: -55rem; } }
 
 /*CONTACTO RESPONSIVE*/
 @media (max-width: 1620px) {

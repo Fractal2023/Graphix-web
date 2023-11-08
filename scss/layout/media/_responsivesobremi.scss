@@ -20,7 +20,9 @@
       font-size: 2.5rem;
     }
     .subtitleText {
-      font-size: 1.7rem;
+      font-size: 2rem;
+      line-height: 1.5;
+      padding-top: 3rem;
     }
     .imgGraphic {
       top: -7rem;
@@ -31,22 +33,41 @@
     .sobreBg {
       height: 30%;
     }
+
+    .subtitleText2{
+      font-size: 1.5rem;
+    }
+    .imgGraphic2{
+      width: 22rem;
+      right: 1.5rem;
+      opacity: 70%;
+      z-index: -1;
+    }
   }
     @media (max-width: 428px) {
     .titleText {
       font-size: 1.5rem;
     }
-    .subtitleText {
+    .subtitleText2 {
       font-size: 1.2rem;
       text-align: center;
       margin-top: 2rem;
+      line-height: 1;
   
       p {
-        margin-top: 3rem;
+        margin-top: 1rem;
+        margin-left: -2rem;
       }
     }
     .sobreBg {
       height: 30%;
+    }
+    .imgGraphic2{
+      width: 10rem;
+      top: 12rem;
+      right: 1.5rem;
+      opacity: 70%;
+      z-index: -1;
     }
   }
   
@@ -57,6 +78,13 @@
     .subtitleText p {
       margin-top: 2.2rem;
       line-height: 1.3;
+    }
+    .imgGraphic2{
+      width: 5rem;
+      top: 16rem;
+      right: 0rem;
+      opacity: 70%;
+      z-index: -1;
     }
   }
   
