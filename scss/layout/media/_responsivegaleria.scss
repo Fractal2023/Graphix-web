@@ -45,7 +45,7 @@
   }
   @media (max-width: 429px) {
     .galleryBg {
-      top: 0rem;
+    
       width: 70%;
       height: 20%;
     }
@@ -55,23 +55,7 @@
     }
 
     .galeriaFlex {
-      position: flex;
-      margin: 0 auto;
-      margin-left: 2.5rem;
-      gap: 2rem;
       display: flex;
-      flex-direction: column;
-    
-      img {
-        width: 300px;
-        &:hover {
-          cursor: crosshair;
-          width: 310px;
-          opacity: 1;
-          filter: contrast(100%);
-        }
-        
-      }
     }
 
     .footer{

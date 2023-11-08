@@ -778,9 +778,10 @@ section.galeriaFlex {
   .titleText {
     font-size: 1.5rem; }
   .subtitleText2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: -6rem;
     line-height: 1; }
     .subtitleText2 p {
       margin-top: 1rem;
@@ -920,26 +921,13 @@ section.galeriaFlex {
 
 @media (max-width: 429px) {
   .galleryBg {
-    top: 0rem;
     width: 70%;
     height: 20%; }
   .galeriaFlex-inicio {
     width: 350px;
     height: 200px; }
   .galeriaFlex {
-    position: flex;
-    margin: 0 auto;
-    margin-left: 2.5rem;
-    gap: 2rem;
-    display: flex;
-    flex-direction: column; }
-    .galeriaFlex img {
-      width: 300px; }
-      .galeriaFlex img:hover {
-        cursor: crosshair;
-        width: 310px;
-        opacity: 1;
-        filter: contrast(100%); }
+    display: flex; }
   .footer {
     position: relative;
     bottom: -85rem; } }
