@@ -478,7 +478,6 @@ section.galeriaFlex-inicio {
   z-index: -2; }
 
 .galleryBg {
-  position: absolute;
   color: white;
   top: 110rem;
   right: 58rem;
@@ -489,7 +488,7 @@ section.galeriaFlex-inicio {
   border-radius: 2rem;
   box-shadow: 0px 10px 5px -5px #CD7D60;
   transition: all 300ms ease-in-out;
-  z-index: 2; }
+  z-index: 999; }
   .galleryBg:hover {
     color: #C25897;
     background-color: white;
@@ -894,7 +893,7 @@ section.galeriaFlex {
 
 @media (max-width: 969px) {
   .galleryBg {
-    top: 108rem;
+    top: 230rem;
     left: 4rem;
     margin-right: 3rem;
     width: 35%;
