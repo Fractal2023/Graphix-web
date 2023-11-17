@@ -879,7 +879,8 @@ section.galeriaFlex {
 /*GALERIA RESPONSIVE*/
 @media (max-width: 1310px) {
   .galleryBg {
-    top: 107rem;
+    position: absolute;
+    top: 110rem;
     right: 42rem;
     margin-right: 3rem;
     width: 25%;
@@ -908,10 +909,10 @@ section.galeriaFlex {
 
 @media (max-width: 800px) {
   .galleryBg {
-    top: 115rem;
-    left: 250rem;
-    width: 35%;
-    height: 10%; }
+    top: 225rem;
+    left: 10rem;
+    width: 45%;
+    height: 15%; }
   .galeriaFlex-inicio {
     width: 700px;
     height: 500px; } }
