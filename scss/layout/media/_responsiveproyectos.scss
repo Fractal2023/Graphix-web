@@ -25,7 +25,7 @@
   }
    @media (max-width: 1065px) {
     .grid {
-      display: flex;
+      display: block;
       flex-direction: row;
       justify-content: center;
       width: 125%;
@@ -49,6 +49,7 @@
   }
    @media (max-width: 800px) {
     .grid {
+      display: block;
       gap: .5rem;
       margin-top: -6rem;
       margin-left: -6.3rem;
