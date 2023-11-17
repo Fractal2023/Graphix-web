@@ -614,9 +614,6 @@ section.galeriaFlex {
   position: absolute;
   z-index: -2; }
 
-.btn-color {
-  background-color: #EF5A2F; }
-
 /*FOOTER*/
 .footerTitle {
   font-family: 'Lexend Deca', sans-serif;
@@ -720,11 +717,8 @@ section.galeriaFlex {
   .logoPrincipal {
     top: .2rem;
     width: 12%; }
-  .grid2{
-    display: block;
-    margin-left: 3.5rem;
-    margin-top: -2rem;
-  } }
+  .grid {
+    display: block; } }
 
 @media (max-width: 428px) {
   .logoPrincipal {
@@ -737,24 +731,14 @@ section.galeriaFlex {
   h2.yFondo {
     font-size: 15rem;
     left: 8rem;
-    top: 15.3rem; } 
-    .grid2{
-      display: block;
-      margin-left: -5rem;
-      margin-top: -5rem;
-    }}
+    top: 15.3rem; } }
 
 @media (max-width: 320px) {
   .logoPrincipal {
     top: 0.05rem;
     left: 10.5rem;
     font-size: 3.5rem;
-    width: 16.5%; }
-    .grid2{
-      display: block;
-      margin-left: -8rem;
-      margin-top: -8rem;
-    } }
+    width: 16.5%; } }
 
 /*SOBRE MÍ RESPONSIVE*/
 @media (max-width: 1140px) {
@@ -850,15 +834,9 @@ section.galeriaFlex {
 
 @media (max-width: 1065px) {
   .grid {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 125%;
-    height: 20%;
-    gap: .5rem;
+    display: block;
     margin-top: -6rem;
-    margin-left: -8.3rem;
-    padding: 9rem; }
+    margin-left: -8.3rem; }
   .proyectosTitle {
     padding: 1.5rem;
     padding-top: .5rem;
@@ -871,6 +849,7 @@ section.galeriaFlex {
 
 @media (max-width: 800px) {
   .grid {
+    display: block;
     gap: .5rem;
     margin-top: -6rem;
     margin-left: -6.3rem;
@@ -930,7 +909,7 @@ section.galeriaFlex {
 @media (max-width: 800px) {
   .galleryBg {
     top: 115rem;
-    left: 4rem;
+    left: 250rem;
     width: 35%;
     height: 10%; }
   .galeriaFlex-inicio {
